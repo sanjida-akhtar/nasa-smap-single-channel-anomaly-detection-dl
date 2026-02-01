@@ -1,0 +1,7 @@
+## Requirements
+- Python 3.8+
+- TensorFlow / Keras
+- NumPy
+- Matplotlib
+- Statsmodels
+- Scikit-learn
