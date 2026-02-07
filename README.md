@@ -16,7 +16,7 @@ This project follows the method described in the paper. Long Short-Term Memory (
 Anomaliles are detected by computing prediction errors, smoothing errors and then applying a threshold.
 
 ## Results
-The model is successful in capturing normal behaviour. However, higher mean absolute error than the paper is observed. Currently attempts are making to improve its performance.
+The model is trained succesfully. However, obtained normalized mean absolute error value close to the value mentioned in the original paper. Currently attempts are making to improve its performance.
 ## Limitations
 Capturing continuous anomaly sequences is a challenging task.
 ## References
