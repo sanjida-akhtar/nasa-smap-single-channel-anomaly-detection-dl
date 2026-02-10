@@ -33,5 +33,6 @@ Capturing continuous anomaly sequences is a challenging task. False positives ar
   ```bash
   git clone https://github.com/sanjida-akhtar/nasa-smap-single-channel-anomaly-detection-dl.git
 - Install dependencies
+  ```bash
   pip install -r requirements.txt
 - Run jupyter notebook
