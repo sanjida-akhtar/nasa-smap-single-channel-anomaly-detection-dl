@@ -16,7 +16,7 @@ This project follows the method described in the paper. Long Short-Term Memory (
 Anomaliles are detected by computing prediction errors, smoothing errors and then applying a threshold.
 
 ## Results
-The model is trained succesfully. However, obtained normalized mean absolute error value close to the value mentioned in the original paper. Currently attempts are being made to improve its performance.
+The model is trained succesfully. However, obtained normalized mean absolute error value close to the value mentioned in the original paper. The model achieves a recall of 100%, a precision of 42.83% (~43%), and a F0.5 score of 48.39% without pruning anomalies (close to the value mentioned in the paper). Currently attempts are being made to improve its performance.
 ## Limitations
 Capturing continuous anomaly sequences is a challenging task. False positives are not pruned.
 ## References
