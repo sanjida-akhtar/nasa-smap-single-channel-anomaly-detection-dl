@@ -23,3 +23,15 @@ Capturing continuous anomaly sequences is a challenging task. False positives ar
 - This project is inspired by Hundman et. al, "Detecting "Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding", 2018
 - Original work reference:
     - https://github.com/khundman/telemanom
+## How to Run
+### Prerequisite
+- Python
+- pip
+- Jupyter notebook
+### Steps
+- Clone the repository
+  ```bash
+  git clone https://github.com/sanjida-akhtar/nasa-smap-single-channel-anomaly-detection-dl.git
+- Install dependencies
+  pip install -r requirements.txt
+- Run jupyter notebook
