@@ -1,12 +1,13 @@
 ## Requirements
-- Python 3.12.12
-- NumPy 2.0.2
-- Pandas 2.2.2
-- Matplotlib 3.10.0
-- Seaborn 0.13.2
-- Statsmodels 0.14.6
-- TensorFlow 2.19.0
-- Keras 3.10.0
+- Python==3.12.12
+- NumPy==2.0.2
+- Pandas==2.2.2
+- Matplotlib==3.10.0
+- Seaborn==0.13.2
+- Statsmodels==0.14.6
+- TensorFlow==2.19.0
+- Keras==3.10.0
+
 
 
 
