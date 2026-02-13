@@ -16,10 +16,23 @@ This project follows the method described in the paper. Long Short-Term Memory (
 Anomaliles are detected by computing prediction errors, smoothing errors and then applying a threshold.
 
 ## Results
-The model is trained succesfully. However, obtained normalized mean absolute error value close to the value mentioned in the original paper. Currently attempts are being made to improve its performance.
+The model is trained succesfully. However, obtained normalized mean absolute error value close to the value mentioned in the original paper. The model achieves a recall of 100%, a precision of 42.83% (~43%), and a F0.5 score of 48.39% without pruning false positives (close to the respective value mentioned in the paper). Currently attempts are being made to improve its performance.
 ## Limitations
 Capturing continuous anomaly sequences is a challenging task. False positives are not pruned.
 ## References
 - This project is inspired by Hundman et. al, "Detecting "Spacecraft Anomalies Using LSTMs and Nonparametric Dynamic Thresholding", 2018
 - Original work reference:
     - https://github.com/khundman/telemanom
+## How to Run
+### Prerequisite
+- Python
+- pip
+- Jupyter notebook
+### Steps
+- Clone the repository
+  ```bash
+  git clone https://github.com/sanjida-akhtar/nasa-smap-single-channel-anomaly-detection-dl.git
+- Install dependencies
+  ```bash
+  pip install -r requirements.txt
+- Run jupyter notebook
